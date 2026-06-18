@@ -8,7 +8,6 @@ public class FindLastIdx {
             int mid = st + (end-st)/2;
             if (x == a[mid]){
                 fIdx = mid;
-                end = mid-1;
                 st = mid+1;
             } else if (x > a[mid]) {
                 st = mid+1;
