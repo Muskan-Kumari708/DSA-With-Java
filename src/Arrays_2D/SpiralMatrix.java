@@ -2,7 +2,7 @@ package Arrays_2D;
 
 import java.util.Scanner;
 
-public class SpiralMatrix {
+public class SpiralMatrix{
     public static void spiral(int[][] matrix , int r , int c){
 
 //         Toprow = Leftcol -> Rightcol;
