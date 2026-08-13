@@ -1,0 +1,34 @@
+package Stacks;
+
+import java.util.Stack;
+
+public class NextGreater {
+    public static void nextGreater(int[] a){
+        Stack<Integer> st = new Stack<>();
+        int[] res = new int[a.length];
+        int n = res.length;
+        res[n-1] = -1;
+        st.push(a[n-1]);
+        for (int i=n-2;i>=0;i--){
+            while (st.size()>0 && st.peek()<a[i]){
+                st.pop();
+            }
+            if (st.size() == 0){
+                res[i] = -1;
+            }
+            else {
+                res[i] = st.peek();
+            }
+            st.push(a[i]);
+        }
+        for (int i=0;i<n;i++){
+            System.out.print(res[i]+" ");
+        }
+
+    }
+    static void main(String[] args) {
+        int [] a = {1,3,2,1,8,6,3,4};
+        nextGreater(a);
+
+    }
+}
