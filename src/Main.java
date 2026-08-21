@@ -32,7 +32,7 @@ public class Main {
 ////     }while (choice!= 0);
         //star
 //        for (int i=4; i>=1; i--){
-//            for (int s=1; s<=4-i; s++){
+//            for (int InfixToPostfix=1; InfixToPostfix<=4-i; InfixToPostfix++){
 //                System.out.print(" ");
 //            }
 //            for (int j=1; j<=i; j++){
@@ -47,7 +47,7 @@ public class Main {
         //pyramid
 
 //        for (int i=1;i<=4; i++){
-//            for (int s=1; s<=4-i; s++){
+//            for (int InfixToPostfix=1; InfixToPostfix<=4-i; InfixToPostfix++){
 //                System.out.print(" ");
 //            }
 //            for (int j=1; j<=i; j++){
@@ -62,7 +62,7 @@ public class Main {
 // Palimdrom Number
 
 //        for (int i=1; i<=5; i++){
-//            for (int s=1; s<=5-i; s++){
+//            for (int InfixToPostfix=1; InfixToPostfix<=5-i; InfixToPostfix++){
 //                System.out.print(" ");
 //            }
 //            for (int j=i; j>=1; j--){
@@ -116,7 +116,7 @@ public class Main {
 //
 
 //        for (int i=0; i<=4; i++){
-//            for (int s=1; s<=4-i; s++){
+//            for (int InfixToPostfix=1; InfixToPostfix<=4-i; InfixToPostfix++){
 //                System.out.print(" ");
 //            }
 //
@@ -132,7 +132,7 @@ public class Main {
         //Cross Pyramid
 
 //        for (int i=1; i<=4; i++) {
-//            for (int s = 1; s <= i - 1; s++) {
+//            for (int InfixToPostfix = 1; InfixToPostfix <= i - 1; InfixToPostfix++) {
 //                System.out.print(" ");
 //            }
 //            System.out.print("*");
@@ -156,7 +156,7 @@ public class Main {
 //            //number pyramid
 //
 //            for (int i=1; i<=4; i++){
-//                for (int s=1;s<=4-i;s++){
+//                for (int InfixToPostfix=1;InfixToPostfix<=4-i;InfixToPostfix++){
 //                    System.out.print(" ");
 //                }
 //                for (int j=1; j<=i; j++){
@@ -170,7 +170,7 @@ public class Main {
 
 
 //        for (int i=0;i<4;i++){
-//            for (int s=1;s<=(4-i);s++){
+//            for (int InfixToPostfix=1;InfixToPostfix<=(4-i);InfixToPostfix++){
 //                System.out.print(" ");
 //            }
 //            for (char ch =(char)('A'+i); ch >= 'A'; ch--){
@@ -187,7 +187,7 @@ public class Main {
 //// diamond single
 
 //        for (int i=1;i<=4;i++) {
-//            for (int s = 1; s <= 4 - i; s++) {
+//            for (int InfixToPostfix = 1; InfixToPostfix <= 4 - i; InfixToPostfix++) {
 //                System.out.print(" ");
 //            }
 //            for (int j = 1; j <= i; j++) {
@@ -196,7 +196,7 @@ public class Main {
 //            System.out.println();
 //        }
 //        for (int i=3;i>=1;i--){
-//            for (int s=1;s<=3-i+1;s++){
+//            for (int InfixToPostfix=1;InfixToPostfix<=3-i+1;InfixToPostfix++){
 //                System.out.print(" ");
 //            }
 //            for (int j=1;j<=i;j++){
