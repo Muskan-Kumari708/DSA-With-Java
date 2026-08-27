@@ -29,6 +29,7 @@ public class Function {
         int rev = 0;
 
         pailimdrom(num,rev);
+
         
 
 
