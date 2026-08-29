@@ -6,6 +6,7 @@ public class CircularQueueArray {
         int r = -1;
         int size = 0;
         int[] a = new int[5];
+
         public void add(int val){
             if (size == 0){
                 f = r = 0;
